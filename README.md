@@ -4,5 +4,5 @@
 
 Application: [/application](/application)  
 Helm Chart: [/helm-chart](/helm-chart)  
-Documentation: [/documentation](/documentation)  
+Documentation: [/docs](/docs)  
 Scripts: [/scripts](/scripts)  
