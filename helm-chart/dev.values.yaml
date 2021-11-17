@@ -9,14 +9,14 @@ ingress:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
   hosts:
-    - host: demo.mirix.io
+    - host: th.mirix.io
       paths:
         - path: /
           pathType: Prefix
   tls:
-    - secretName: demo.mirix.io
+    - secretName: th.mirix.io
       hosts:
-        - demo.mirix.io
+        - th.mirix.io
 
 resources:
   limits:
