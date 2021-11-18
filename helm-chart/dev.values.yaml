@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  tag: "stable"
+  tag: "stable2"
 
 ingress:
   enabled: true
@@ -9,14 +9,14 @@ ingress:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
   hosts:
-    - host: th.mirix.io
+    - host: mis.demo.mirix.io
       paths:
         - path: /
           pathType: Prefix
   tls:
-    - secretName: th.mirix.io
+    - secretName: mis.demo.mirix.io
       hosts:
-        - th.mirix.io
+        - mis.demo.mirix.io
 
 resources:
   limits:
